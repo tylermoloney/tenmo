@@ -12,3 +12,5 @@ View history of all of their transactions, with additional details for each tran
 
 The command line interface uses an API (As of this writing, to localhost) to communicate with a PostgreSQL database that stores all user and transfer information
 
+There is a create script at java/database/create.sh that will go through setting up a PostgreSQL database with the necessary tables. There are no users by default but once the tenmo-server is run, a user may be registered with the CLI in tenmo-client.
+
