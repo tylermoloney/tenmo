@@ -70,7 +70,7 @@ yarn-error.log*
 *.sw*
 *.jfm
 
-.properties
+*.properties
 
 # Cypress e2e Testing
 cypress/screenshots
